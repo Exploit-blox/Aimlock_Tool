@@ -1,5 +1,5 @@
 local Enabled = true
-local Prediction = 0.1202938
+local Prediction = 0.12984
 local Notifications = true
 local AimPart = "UpperTorso"
 
