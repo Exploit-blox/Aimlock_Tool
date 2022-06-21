@@ -1,5 +1,5 @@
 if not game:GetService('Players').LocalPlayer:IsInGroup(14490190) then
-	game.Players.LocalPlayer:Kick(Join Group, link copied to clipboard)
+	game.Players.LocalPlayer:Kick('Join Group, link copied to clipboard')
 	return setclipboard("https://web.roblox.com/groups/14490190/Mad-Astra#!/about")
 end
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
