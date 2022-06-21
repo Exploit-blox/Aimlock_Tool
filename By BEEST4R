@@ -1,9 +1,50 @@
-
-
 if not game:GetService('Players').LocalPlayer:IsInGroup(14490190) then
-	game.Players.LocalPlayer:Kick(Join Group, link copied to clipboard )
-	return setclipboard("https://web.roblox.com/groups/14490190/Mad-Astra#!/about")
+
+ game.Players.LocalPlayer:Kick(Join Group, link copied to clipboard )
+
+ return setclipboard("https://web.roblox.com/groups/14490190/Mad-Astra#!/about")
+
 end
+
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+
+local Notify = AkaliNotif.Notify;
+
+wait();
+
+Notify({
+
+Description = "KimoTool made by BEEST4R<3";
+
+Title = "KimoTool";
+
+Duration = 10;
+
+});
+
+wait(1)
+
+Notify({
+
+Description = "Click tool to target";
+
+Title = "KimoTool";
+
+Duration = 5;
+
+});
+
+wait(1.5)
+
+Notify({
+
+Description = "Kimo Loaded :)";
+
+Title = "KimoTool";
+
+Duration = 10;
+
+});
 
 local Enabled = true
 
@@ -31,11 +72,11 @@ Part.Anchored = true
 
 Part.CanCollide = false
 
-Part.Color = Color3.fromRGB(255, 215, 0)
+Part.Color = Color3.fromRGB(255,215,0)
 
 Part.Material = Enum.Material.Neon
 
-Part.Size = Vector3.new(1.5, 1.5, 1.5)
+Part.Size = Vector3.new(1.3, 1.3, 1.3)
 
 Part.Shape = Enum.PartType.Block
 
@@ -85,9 +126,9 @@ Tool.Activated:Connect(function()
 
             game.StarterGui:SetCore("SendNotification", {
 
-                Title = "KimoTool By | BEEST4R<3",
+                Title = "KimoTool | by BEEST4R<3",
 
-                Text = "Unlocked"
+                Text = "???"
 
             })
 
@@ -109,9 +150,9 @@ Tool.Activated:Connect(function()
 
             game.StarterGui:SetCore("SendNotification", {
 
-                Title = "KimoTool By | BEEST4R<3",
+                Title = "KimoTool | by BEEST4R<3",
 
-                Text = "Locked To :  " .. tostring(TargetPlayer)
+                Text = "" .. tostring(TargetPlayer)
 
             })
 
